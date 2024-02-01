@@ -1,0 +1,148 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header_Section {
+    height: 570px;
+    background-size: 60%;
+  }
+  .nav .logo a img {
+    width: 150px;
+    height: 110px;
+  }
+  .navbar {
+    width: 55%;
+  }
+  .ServiceHeader {
+    margin-top: 60px;
+  }
+  .head1,
+  .head2 {
+    font-size: 25px;
+  }
+  .ServiceHeaderText {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .ServiceHeaderText + a {
+    font-size: 17px;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* styles */
+  .header {
+    display: none;
+  }
+  .resNavabr {
+    display: block;
+  }
+  .ServiceHeader {
+    margin-top: 40px;
+  }
+  .head1 {
+    font-size: 18px;
+  }
+  .head2 {
+    font-size: 18px;
+  }
+  .ServiceHeaderText {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .ServiceHeaderText + a {
+    font-size: 13px;
+    margin-top: -20px;
+  }
+  .header_Section {
+    height: 390px;
+    background-size: 60%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+
+  .resNavabr {
+    display: block;
+  }
+  .header_Section {
+    background-size: 55%;
+    height: 330px;
+  }
+  .ServiceHeader {
+    margin-top: 20px;
+  }
+  .head1 {
+    font-size: 15px;
+  }
+  .head2 {
+    font-size: 15px;
+  }
+  .ServiceHeaderText {
+    font-size: 11px;
+    line-height: 1.3;
+    margin-top: 5px;
+  }
+  .ServiceHeaderText + a {
+    padding-top: 0;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .resLogo {
+    padding-top: 10px;
+  }
+  .resLogo a img {
+    width: 100px;
+    height: 60px;
+  }
+  .hamburger button {
+    font-size: 15px;
+    line-height: 1;
+    padding: 5px 10px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .header {
+    display: none;
+  }
+  .resNavabr {
+    display: block;
+  }
+  .header_Section {
+    background-size:60%;
+    height: 330px;
+  }
+  .ServiceHeader {
+    margin-top: 150px;
+  }
+  .head1 {
+    font-size: 15px;
+  }
+  .head2 {
+    font-size: 15px;
+  }
+  .ServiceHeaderText {
+    font-size: 11px;
+    line-height: 1.3;
+    margin-top: 5px;
+    width: 80%;
+  }
+  .ServiceHeaderText + a {
+    padding-top: 0;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  .resLogo {
+    padding-top: 10px;
+  }
+  .hamburger button {
+    font-size: 15px;
+    line-height: 1;
+    padding: 5px 10px;
+  }
+  .resLogo a img {
+    width: 80px;
+    height: 45px;
+  }
+}

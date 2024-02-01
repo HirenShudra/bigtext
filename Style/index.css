@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Raleway:wght@400;500;600;700;800;900&display=swap");
+
+/* general css start */
+body {
+  font-size: 14px;
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a:hover,
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0;
+}
+::selection {
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+button:focus,
+input:focus,
+img:focus,
+.slick-slide:focus,
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.transition {
+  transition: 700ms;
+}
+
+.center {
+  text-align: center;
+}
+#page_wrapper {
+  max-width: 100%;
+}
+/* general css end */
+
+/* Header css start */
+.header_Section {
+  width: 100%;
+  background-image: url(../Photos/headerRight.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 65%;
+  height: 680px;
+}
+.header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+.nav {
+  padding-top: 17px;
+}
+.navbar {
+  width: 50%;
+  padding-top: 30px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  transition: all 0.6s;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+ul li a:hover {
+  color: #f79370;
+}
+.signIn {
+  background-color: #939598;
+  padding: 12px 24px;
+  border-radius: 20px;
+}
+.ServiceHeader {
+  width: 80%;
+  margin: 120px auto 0 auto;
+}
+.head1 {
+  color: #005abc;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.head2 {
+  color: #005abc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.ServiceHeaderText {
+  color: #005abc;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.8;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  width: 60%;
+}
+.ServiceHeaderText + a {
+  display: block;
+  padding-top: 30px;
+  color: #005abc;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.8;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  width: 60%;
+}
+/* Header css end */
+
+/* Responsive header section css start */
+.resNavabr {
+  display: none;
+  width: 80%;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resLogo {
+  padding-top: 15px;
+}
+.resLogo a img {
+  width: 130px;
+  height: 90px;
+}
+
+.hamburger button {
+  background-color: #939598;
+  padding: 5px 17px 3px 17px;
+  line-height: 1.2;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.navLinks {
+  display: none;
+  width: 100%;
+  background-color: #005abc;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.navLinks ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navLinks ul li {
+  padding: 5px;
+}
+#crossBtn {
+  position: relative;
+  left: 95%;
+  color: #ffffff;
+  background-color: #939598;
+  padding: 8px 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cross:hover {
+  color: red;
+}
+/* Responsive header section css end */

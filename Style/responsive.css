@@ -110,7 +110,7 @@
     display: block;
   }
   .header_Section {
-    background-size:60%;
+    background-size: 60%;
     height: 330px;
   }
   .ServiceHeader {
@@ -144,5 +144,11 @@
   .resLogo a img {
     width: 80px;
     height: 45px;
+  }
+  #crossBtn {
+    left: 85%;
+  }
+  .navLinks {
+    width: 70%;
   }
 }

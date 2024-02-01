@@ -184,7 +184,9 @@ ul li a:hover {
 }
 .navLinks {
   display: none;
-  width: 100%;
+  position: absolute;
+  top: 10%;
+  width: 80%;
   background-color: #005abc;
   margin: auto;
   padding: 20px;
@@ -200,7 +202,7 @@ ul li a:hover {
 }
 #crossBtn {
   position: relative;
-  left: 95%;
+  left: 90%;
   color: #ffffff;
   background-color: #939598;
   padding: 8px 10px;
